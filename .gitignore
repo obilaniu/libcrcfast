@@ -1,0 +1,35 @@
+# Ignored whole directories
+bin
+lib
+lib64
+build
+dist
+install
+3rdparty
+
+# Ignored file extensions
+## Preprocessed files
+**.i
+
+## Executable Object Files
+**.[ao]
+**.bin
+**.dll
+**.exe
+**.lib
+**.so
+**.dylib
+
+
+## Backup File
+**.bak
+**.swp
+**~
+
+
+# Must not ignore Meson build files.
+!**/meson.build
+
+
+# Project-specific ignores
+# ...
